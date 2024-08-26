@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend>Student Details</legend>
+      <label for="FirstName">First Name:</label><br>
+      <input type="text" id="FirstName" name="name" placeholder="Your Name"/><br /><br />
+      <label for="LastName">Last Name:</label><br>
+      <input type="text" id="LastName" name="name" placeholder="Surname" /><br /><br />
+      <label for="Email">Email:</label><br>
+      <input type="text" id="Email" name="name" placeholder="David@gmail.com"/><br /><br />
+      <label for="ContactNo.">Contact No.:</label><br>
+      <input type="text" id="Contact No." name="name" placeholder="9876543210"/><br /><br />
+      <label for="Address">Address:</label><br>
+      <textarea id="Address" name="name" rows="4" cols="30"></textarea><br/>
+      </fieldset>
+      <hr>
+      <label for="Date of Birth">Date of Birth:</label><br>
+      <input type="Date" id="Date of Birth"/><br><br>
+      <label for="Gender">Gender:</label><br>
+      <input type="radio" id="male" name="gender"/>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender"/>
+      <label for="female">Female</label>
+      <hr>
+    <fieldset>
+        <legend>Competetions</legend>
+      <input type="checkbox" id="Sports&Games"/>
+      <label for="Sports&Games">Sports&Games</label><br>
+      <input type="checkbox" id="Dancing"/>
+      <label for="Dancing">Dancing</label><br>
+      <input type="checkbox" id="Singing"/>
+      <label for="Singing">Singing</label>
+    </fieldset>
+      <hr>
+      <label for="StudentId">Student Id:</label>
+      <input type="text" id="StudentId" placeholder="12345-A-012"/><br><br>
+      <label for="Password">Password:</label>
+      <input type="password" id="Password" placeholder="**********"/><br><br>
+      <label for="Re-enterPassword">Re-enter Password:</label>
+      <input type="password" id="ReenterPassword" placeholder="**********"/>
+      <hr>
+      <input type="Submit" value="Submit"/>
+    </form>
+  </body>
+</html>
