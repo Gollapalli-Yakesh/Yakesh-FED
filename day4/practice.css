@@ -1,0 +1,8 @@
+div{
+    display: flex;
+    justify-content: space-around;
+}
+.class1 {
+    display: flex;
+    justify-content: space-between;
+}
