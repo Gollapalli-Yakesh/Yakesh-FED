@@ -1,33 +1,60 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 10;
-  padding: 10;
-  background-color: #ebf0ef;
+  display: grid;
+  margin: 40px;
+  grid-template-columns: auto auto;
+  background-color: bisque;
+  grid-template-areas:
+      "A A A A"
+      "B B B C"
+      "D D D D";
+  gap: 10px;
+  width: 800px;
+  border: 10px solid rgb(10, 10, 11);
 }
 header {
-  background-color: rgb(231, 225, 221);
-  color: rgb(24, 1, 1);
-  padding: 0px;
+  background-color: rgb(255, 226, 190);
 }
-footer {
-  padding: 10px;
-  background-color: #26647b;
-  color: #ffffff;
+.box1 {
+  grid-area: A;
   text-align: center;
+  background-color: rgb(175, 187, 194);
 }
 h1 {
-  color: #cea8a8;
-  background-color: rgb(22, 21, 20);
+  font-size: 50px;
+  text-align: center;
 }
-ul {
+h2{
+  text-align: center;
+}
+nav {
   display: flex;
-  justify-content: space-around;
-  width: 400px;
-  margin-left: 1200px;
-  list-style-type: none;
+ float: right;
 }
-main{
-    text-align: center;
-    background-color: indianred;
+a{
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 20px;
 
+}
+.box2 {
+  grid-area: B;
+  background-color: rgb(132, 203, 236);
+  padding: 10px;
+}
+.box3 {
+  grid-area: C;
+  background-color: rgb(230, 170, 243);
+  padding: 10px;
+}
+li{
+margin-top: 25px;
+}
+.box4 {
+  grid-area: D;
+  text-align: center;
+  background-color: rgb(193, 162, 167);
+  padding: 10px;
+}
+span{
+  font-style: Italic;
 }
